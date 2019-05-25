@@ -9,20 +9,22 @@
  </head>
    <body>
      <div class="row">
-         <div class="midum-3 columns text-center">
-             <img src="img/logo.png">
+          <div class="small-12 columns small-order-1">
+            <div class="row-aling-center">
+              <div class="medium-3 small-12 columns text-center">
+              <h1>e-store</h1>
          </div>
-         <div class="midum-4 columns midum-offset-5">
-             <div class="column row">
-                 <div class="menu align-right">
-                     <li><a href="#">Ingresa</a></li>
-                     <li><a href="#">Régistrate</a></li>
-                     <li><a href="#">Ayuda</a></li>
-                     <li><a href="#">Mapa del sitio</a></li>
-                 </div>
-              </div>
+          <div class="medium-4  small-12 columns medium-offset-5"> 
+              <div class="column row">
+                  <div class="menu align-right hide-for-small-only ">
+                      <li><a href="#">Ingresa</a></li>
+                      <li><a href="#">Régistrate</a></li>
+                      <li><a href="#">Ayuda</a></li>
+                      <li><a href="#">Mapa del sitio</a></li>
+                  </div>
+               </div>
             <div class="row">
-                <div class="small-12 columns midun-offset-3">
+               <div class="medium-9  small-12  columns mediun-offset-3 hide-for-small-only show-for-landscape">
                     <ul class="menu align-right">
                       <li><a><i class="step fi-social-facebook size-36"></i></a></li>
                       <li><a><i class="step fi-social-instagram size-36"></i></a></li>
@@ -30,13 +32,15 @@
                       <li><a><i class="step fi-social-youtube size-36"></i></a></li>
                       <li><a><i class="step fi-social-pinterest size-36"></i></a></li>
                     </ul>
-                  </div>
+                 </div>
                 </div>
             </div>
-         </div>
-     
+       </div>
+       </div>
+
+      <div class="small-12 columns small-order-4 medium-order-2">
         <div class="column row">
-          <div class="button-group expanded">
+          <div class="button-group expanded stacked-for-small ">
             <a href="#" class="button">Hogar</a>
             <a href="#" class="button">Salud</a>
             <a href="#" class="button">Deporte</a>
@@ -47,7 +51,8 @@
             <a href="#" class="button hollow alert">Carrito <i class="stpe fi-shopping-cart"></i></a>
           </div>
         </div>
-
+      </div>
+      <div class="small-12 columns small-order-2">
         <div class="column row">
           <ul class="breadcrumbs">
           <li><a href="#">home</a></li>
@@ -56,11 +61,15 @@
           <li>Decoracion</li>
         </ul>
         </div>
-
+      </div>
+      <div class="small-12 columns small-order-3">
         <div class="row large-uncollapse">
-          <div class="large-3 columns">
+          <div class="large-3 medium-4 show-for-medium  columns">
             <div class="callout">
                <h4>Busqueda avanzada</h4>
+               <P class="show-fro-sr">
+                 A continuacíon hay un formulario para hacer búsquedas avanzadas.
+               </P>
                <from>
                  <div class="row column">
                    <label>Por nombre:
@@ -70,8 +79,8 @@
                  <div class="row column">
                    <label>Por referncia:
                      <input type="text" name="name" aria-describeady="referncias-help">
-                     <p class="help-text" id="refencia-help">Numero unico del producto</p>
                    </label>
+                     <p class="help-text" id="refencia-help">Numero unico del producto</p>
                  </div>
                  <div class="row column">
                    <label>Por categoria:
@@ -110,19 +119,10 @@
                             </label>
                         </div>
                       </div>
-                        
-                          
-         
-          
-
-
-
-
-
-
-
-
-
+                   <div class="row text-center">
+                    <hr>
+                    <button type="submit" name="enviar" class="button">Buscar  <i class="step fi-magnifying-glass"></i></button>
+                    </div>
                </from>
             </div>
           </div>
@@ -131,7 +131,7 @@
               <h3>Decoracíon</h3>
               <hr>
               <div class="row large-uncollapse">
-                <div class="large-4 columns">
+                <div class="large-4  small-12  medium-6 columns">
                   <div class="secondary callout text-center">
                     <img src="img/1.jpg" alt="Decoracion 1" class="thumbnail"/>
                     <h5>Decoración 1</h5>
@@ -140,7 +140,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="large-4 columns">
+                <div class="large-4  small-12 medium-6 columns">
                   <div class="secondary callout text-center">
                     <img src="img/2.jpg" alt="Decoracion 1" class="thumbnail"/>
                     <h5>Decoración 2</h5>
@@ -149,7 +149,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="large-4 columns">
+                <div class="large-4  small-12 medium-12  columns">
                   <div class="secondary callout text-center">
                   <img src="img/3.jpg" alt="Decoracion 1" class="thumbnail"/>
                     <h5>Decoracíon 3</h5>
@@ -167,7 +167,7 @@
                      </P>
                  </div>
                </div>
-               <div class="large-4 columns">
+               <div class="large-4 small-12 medium-6 columns">
                   <div class="secondary callout text-center">
                    <img src="img/5.jpg" alt="Decoracion 1" class="thumbnail"/>
                    <h5>Decoración 5</h5>  
@@ -176,7 +176,7 @@
                    </P>
                </div>
              </div>
-             <div class="large-4 columns">
+             <div class="large-4   small-12  medium-12 columns">
                 <div class="secondary callout text-center">
                  <img src="img/6.jpg" alt="Decoracion 1" class="thumbnail"/>
                  <h5>Decoración 6</h5>  
@@ -185,15 +185,16 @@
                  </P>
              </div>
            </div>
-          </div>
+         </div>
         </div>
-   
-
       </div>
+     </div>
+   </div>
+ </div>
               
         <script src="js/jquery.js"></script>
         <script src="js/what-input.js"></script>
-        <script src="js/foundation.min.js" charset="utf-8"></script>
-        <script src="js/home.js" charset="utf-8"></script>
+         <script src="js/foundation.min.js" charset="utf-8"></script>
+          <script src="js/home.js" charset="utf-8"></script>
    </body>
 </html>
